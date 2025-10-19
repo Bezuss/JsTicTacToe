@@ -8,7 +8,7 @@ class Game {
 
   click(x, y) {
     if (this.try % 2 != 0) {
-      if (this.mas["A" + x + "" + y] == null) this.mas["A" + x + "" + y] = 1;
+      if ((this.mas["A" + x + "" + y] = null)) this.mas["A" + x + "" + y] = 1;
       else {
         console.log("Клеточка уже занята");
         return;
