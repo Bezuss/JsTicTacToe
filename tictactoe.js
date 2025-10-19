@@ -1,3 +1,5 @@
+// Practice #1
+
 class Game {
 
     constructor() {
