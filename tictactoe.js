@@ -26,6 +26,7 @@ class Game {
                 return;  
             }
         
+            // Проверка победителя
         this.try++;
          if (this.mas["A00"] === this.mas["A01"] && this.mas["A00"] === this.mas["A02"] && this.mas["A00"] !== undefined) {
         console.log(`Игрок ${this.mas["A00"] + 1} выиграл!`);
